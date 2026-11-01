@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DA675068-67CE-4FE6-B96B-F36E38199DB9}" SchemaVersion="133">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{DA675068-67CE-4FE6-B96B-F36E38199DB9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Forest_Bank" ID="{B66CB174-4F50-40E3-ADC4-86E7583A0182}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_InsectCall" ID="{D0BA5AB9-0496-43AC-A92F-CF6844A0E510}" WorkUnitID="{5AE2B714-8DF1-45BB-A617-BB8AAB8678B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambience_Base" ID="{A71ED182-C170-472C-90F8-3EFB194F7395}" WorkUnitID="{5AE2B714-8DF1-45BB-A617-BB8AAB8678B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BirdCall" ID="{108B8F4F-6F3A-47B5-A1B8-6D3BE5119952}" WorkUnitID="{5AE2B714-8DF1-45BB-A617-BB8AAB8678B6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

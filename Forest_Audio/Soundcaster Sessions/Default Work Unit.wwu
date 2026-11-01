@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4AEC4064-C183-498A-B8F4-8E7DF3A48A55}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{4AEC4064-C183-498A-B8F4-8E7DF3A48A55}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="PostRainForest_Test" ID="{63C6C9BA-7637-42C9-8BBF-EE9B9BC9DE63}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Ambience_Base" ID="{A71ED182-C170-472C-90F8-3EFB194F7395}" WorkUnitID="{5AE2B714-8DF1-45BB-A617-BB8AAB8678B6}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_BirdCall" ID="{108B8F4F-6F3A-47B5-A1B8-6D3BE5119952}" WorkUnitID="{5AE2B714-8DF1-45BB-A617-BB8AAB8678B6}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_InsectCall" ID="{D0BA5AB9-0496-43AC-A92F-CF6844A0E510}" WorkUnitID="{5AE2B714-8DF1-45BB-A617-BB8AAB8678B6}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

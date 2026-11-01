@@ -1,0 +1,13 @@
+# GITIGNORE template for Wwise Project
+
+.backup*
+.cache*
+*.akd
+*.wavu
+GeneratedSoundBanks/
+.wuser
+*.prof
+*.validationcache
+*.wsettings
+AkWwiseProjectData.asset
+IncrementalSoundBankData.xml

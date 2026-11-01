@@ -1,0 +1,6 @@
+# Wwise 缓存、输出文件，不提交
+.cache/
+GeneratedSoundBanks/
+*.validationcache
+*.wsettings
+*.wuser

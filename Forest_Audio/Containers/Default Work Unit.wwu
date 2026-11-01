@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2382D40C-6E78-485F-8D93-F3689E9F70EC}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{2382D40C-6E78-485F-8D93-F3689E9F70EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Forest_Ambience_Base" ID="{D60046C8-5DF3-4252-9CA2-20196DE85402}" ShortID="757705512">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{722B535E-FFE1-4DD2-8CFA-771CCF784822}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98C0D342-9835-4242-B057-AD1327329AFB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Forest_Ambience_Base" ID="{5956ADBF-4CF6-4486-86EA-47512741754A}">
+							<Language>SFX</Language>
+							<AudioFile>Forest_Ambience_Base.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="902871250"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Forest_Ambience_Base" ID="{5956ADBF-4CF6-4486-86EA-47512741754A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="RC_BirdsCall" ID="{73407253-652F-4B43-AE49-B32E841BB8AE}" ShortID="53169534">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_Forest_Bird" ID="{66449E9D-6497-4351-8997-EDFD35EB6109}" WorkUnitID="{B6F5A0EE-9BA9-400B-9EC9-2E32C85D65EF}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{722B535E-FFE1-4DD2-8CFA-771CCF784822}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98C0D342-9835-4242-B057-AD1327329AFB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Bird_Call_01" ID="{B6774328-F52E-43A6-B182-7633A7B5D2AC}" ShortID="698080354">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{722B535E-FFE1-4DD2-8CFA-771CCF784822}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98C0D342-9835-4242-B057-AD1327329AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bird_Call_01" ID="{A45C8814-F375-44FA-AD6F-0EC2DDF9E4B0}">
+									<Language>SFX</Language>
+									<AudioFile>Bird_Call_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="141089082"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bird_Call_01" ID="{A45C8814-F375-44FA-AD6F-0EC2DDF9E4B0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bird_Call_02" ID="{C5CA433B-E9D8-4EBB-9074-CD50CB60C60A}" ShortID="546802659">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{722B535E-FFE1-4DD2-8CFA-771CCF784822}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98C0D342-9835-4242-B057-AD1327329AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bird_Call_02" ID="{29751B40-6A00-40AA-9F02-81C7C88CED88}">
+									<Language>SFX</Language>
+									<AudioFile>Bird_Call_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="60025329"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bird_Call_02" ID="{29751B40-6A00-40AA-9F02-81C7C88CED88}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bird_Call_03" ID="{E0B3DB18-8939-4DF1-ADD2-7B3919FCC016}" ShortID="268524558">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{722B535E-FFE1-4DD2-8CFA-771CCF784822}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98C0D342-9835-4242-B057-AD1327329AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bird_Call_03" ID="{80E0E97B-A203-4AE3-A8BD-2300CD1A660F}">
+									<Language>SFX</Language>
+									<AudioFile>Bird_Call_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="876649000"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bird_Call_03" ID="{80E0E97B-A203-4AE3-A8BD-2300CD1A660F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="RC_InsectCall" ID="{684F6644-D855-4B73-9ACB-8614868400BB}" ShortID="125668279">
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_Forest_Insect" ID="{ECDF8318-64F8-46C9-ADE2-8AE1972F9BA0}" WorkUnitID="{B6F5A0EE-9BA9-400B-9EC9-2E32C85D65EF}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{722B535E-FFE1-4DD2-8CFA-771CCF784822}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98C0D342-9835-4242-B057-AD1327329AFB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Insect_Call_01" ID="{C3031A62-20C2-4300-B8A9-07FBDB6653BE}" ShortID="791840931">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{722B535E-FFE1-4DD2-8CFA-771CCF784822}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98C0D342-9835-4242-B057-AD1327329AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Insect_Call_01" ID="{A8A55CF3-5AEC-4D62-B16F-956A58EDA485}">
+									<Language>SFX</Language>
+									<AudioFile>Insect_Call_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="80037184"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Insect_Call_01" ID="{A8A55CF3-5AEC-4D62-B16F-956A58EDA485}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Insect_Call_02" ID="{3551C26C-C359-4E17-8AAB-0611450B137A}" ShortID="72745076">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{722B535E-FFE1-4DD2-8CFA-771CCF784822}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98C0D342-9835-4242-B057-AD1327329AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Insect_Call_02" ID="{44965067-903A-4C57-8364-14D66463141A}">
+									<Language>SFX</Language>
+									<AudioFile>Insect_Call_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1027197389"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Insect_Call_02" ID="{44965067-903A-4C57-8364-14D66463141A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Insect_Call_03" ID="{E2787415-37BA-4EC1-BCC1-4DDDE2D1D47F}" ShortID="495904264">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{722B535E-FFE1-4DD2-8CFA-771CCF784822}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98C0D342-9835-4242-B057-AD1327329AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Insect_Call_03" ID="{0B132BAB-FA0B-46E6-9292-69AA0A899BB0}">
+									<Language>SFX</Language>
+									<AudioFile>Insect_Call_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="333698764"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Insect_Call_03" ID="{0B132BAB-FA0B-46E6-9292-69AA0A899BB0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

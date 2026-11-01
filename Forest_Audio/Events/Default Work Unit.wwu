@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5AE2B714-8DF1-45BB-A617-BB8AAB8678B6}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5AE2B714-8DF1-45BB-A617-BB8AAB8678B6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Ambience_Base" ID="{A71ED182-C170-472C-90F8-3EFB194F7395}">
+					<ChildrenList>
+						<Action Name="" ID="{15B1086E-CA89-4CEF-9C95-8A0056BEBBF9}" ShortID="72335988">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest_Ambience_Base" ID="{D60046C8-5DF3-4252-9CA2-20196DE85402}" WorkUnitID="{2382D40C-6E78-485F-8D93-F3689E9F70EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BirdCall" ID="{108B8F4F-6F3A-47B5-A1B8-6D3BE5119952}">
+					<ChildrenList>
+						<Action Name="" ID="{D16468AD-2AE9-4D20-8617-AEF867C17722}" ShortID="417768205">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_BirdsCall" ID="{73407253-652F-4B43-AE49-B32E841BB8AE}" WorkUnitID="{2382D40C-6E78-485F-8D93-F3689E9F70EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_InsectCall" ID="{D0BA5AB9-0496-43AC-A92F-CF6844A0E510}">
+					<ChildrenList>
+						<Action Name="" ID="{42CC9543-3361-4956-91DA-A04B031461D9}" ShortID="206090688">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_InsectCall" ID="{684F6644-D855-4B73-9ACB-8614868400BB}" WorkUnitID="{2382D40C-6E78-485F-8D93-F3689E9F70EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
